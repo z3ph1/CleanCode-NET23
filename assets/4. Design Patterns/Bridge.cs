@@ -1,3 +1,10 @@
+/*
+    Bridge:
+    Decouples an abstraction from its implementation, allowing them to vary independently.
+    Example:
+    A TV remote interacts with a TV using a bridge between different remote interfaces and devices.
+*/
+
 public interface IRemote
 {
     void On();

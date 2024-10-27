@@ -1,3 +1,10 @@
+/*
+    Decorator:
+    Adds additional functionality to an object dynamically without modifying its structure.
+    Example:
+    A CarDecorator class enhances the functionality of a BasicCar by adding sports car features.
+*/
+
 public interface ICar
 {
     void Assemble();

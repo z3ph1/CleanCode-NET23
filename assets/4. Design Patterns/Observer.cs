@@ -1,3 +1,10 @@
+/*
+    Observer:
+    Defines a one-to-many relationship where a change in one object notifies all dependent objects.
+    Example:
+    An Observer object is notified when a Subject undergoes a state change.
+*/
+
 public interface IObserver
 {
     void Update();

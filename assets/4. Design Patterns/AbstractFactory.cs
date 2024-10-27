@@ -1,8 +1,8 @@
 /*
-   Abstract Factory:
-   Creates families of related objects without specifying their concrete classes.
-   Example:
-   A CarFactory can create a SportsCar or a Truck, both implementing the ICar interface.
+    Abstract Factory:
+    Creates families of related objects without specifying their concrete classes.
+    Example:
+    A CarFactory can create a SportsCar or a Truck, both implementing the ICar interface.
 */
 
 public interface ICar

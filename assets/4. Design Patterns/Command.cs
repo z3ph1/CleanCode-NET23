@@ -1,3 +1,10 @@
+/*
+    Command:
+    Encapsulates a request as an object, allowing parameterization of clients with different requests.
+    Example:
+    A TurnOnCommand encapsulates the action of turning on a Light object.
+*/
+
 public interface ICommand
 {
     void Execute();

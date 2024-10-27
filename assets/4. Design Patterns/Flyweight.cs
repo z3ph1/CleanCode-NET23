@@ -1,3 +1,10 @@
+/*
+    Flyweight:
+    Reduces memory usage by sharing data between similar objects.
+    Example:
+    A TreeFactory class shares instances of TreeType objects to reduce memory footprint.
+*/
+
 public class TreeType
 {
     private string _name;

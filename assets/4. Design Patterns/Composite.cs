@@ -1,3 +1,10 @@
+/*
+    Composite:
+    Composes objects into tree structures to represent part-whole hierarchies.
+    Example:
+    A Composite class can contain both Leaf objects and other Composite objects, allowing recursive behavior.
+*/
+
 public interface IComponent
 {
     void Operation();

@@ -1,3 +1,10 @@
+/*
+    Strategy:
+    Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+    Example:
+    A Context class uses different strategies (StrategyA, StrategyB) to execute different algorithms.
+*/
+
 public interface IStrategy
 {
     void Execute();

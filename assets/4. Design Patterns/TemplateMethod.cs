@@ -1,3 +1,10 @@
+/*
+    Template Method:
+    Defines the skeleton of an algorithm, with steps that can be overridden by subclasses.
+    Example:
+    A Game class defines the structure of playing a game, with specific games (like Football) providing details.
+*/
+
 public abstract class Game
 {
     public void Play()

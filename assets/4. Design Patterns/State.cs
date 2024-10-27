@@ -1,3 +1,10 @@
+/*
+    State:
+    Allows an object to change its behavior when its internal state changes.
+    Example:
+    A Context object changes its behavior based on the current state (ConcreteStateA, ConcreteStateB).
+*/
+
 public interface IState
 {
     void Handle(Context context);

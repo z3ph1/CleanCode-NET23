@@ -1,3 +1,10 @@
+/*
+    Builder:
+    Separates the construction of an object from its representation, allowing step-by-step object creation.
+    Example:
+    A CarBuilder class constructs a Car object by setting various properties like Engine and Wheels.
+*/
+
 public class Car
 {
     public string Engine { get; set; }
