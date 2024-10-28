@@ -1,4 +1,4 @@
-# Labb 2 - MicroServices
+# Labb 2 - Micro Services
 
 Ett sätt att bygga upp funktionalitet åt en större organisation eller företag är att tillämpa
 arkitekturmönstret mikrotjänster, vilket både löser en hel del problem men samtidigt introducerar
@@ -11,7 +11,7 @@ från tjänsterna vilket gör att dessa behöver supporta minst **GET** och **PO
 även implementera **PUT**, **PATCH** och **DELETE**.
 
 ### [Implement API Gateways with Ocelot](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/implement-api-gateways-with-ocelot)
-## Genomförs i grupp er om 3 personer
+## Genomförs i grupp er om 3-4 personer
 
 ## Labben består av 3 delar 
 
@@ -52,13 +52,13 @@ informationen till bakomliggande tjänster.
 
 ### Alternativ 2: Message Queue
 
-Implementera en message queue för att hantera kommunikation mellan tjänsterna. Detta kan göras med hjälp av RabbitMQ eller liknande.
+Implementera en message queue för att hantera kommunikation mellan tjänsterna. Detta kan göras med hjälp av RabbitMQ.
 
 #### [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
 
 ## Redovisning
 
-Ni ska zippa och ladda upp projektet på ithsdistans in det som behövs för att köra projektet med eventuella anvisningar. Ett tips kan vara att jobba i ett github-projekt och bjuda in mig i det.
+Ni ska zippa och ladda upp projektet på ithsdistans under "Labb 2 - Micro Services" det som behövs för att köra projektet med eventuella anvisningar. Ett tips kan vara att jobba i ett github-projekt och bjuda in mig i det.
 
 ## Bedömning
 
@@ -75,6 +75,8 @@ Ni ska zippa och ladda upp projektet på ithsdistans in det som behövs för att
 * En eller flera extra uppgifter för VG är genomförd
 * Man har tillämpat SOLID i utvecklingen
 
-## Deadline är 30/12-2023 kl 23:59
+## Utdelning
+2024-12-02
 
-Sen inlämning innebär komplettrering i Februari
+## Deadline
+2024-12-19
