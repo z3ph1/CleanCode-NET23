@@ -16,20 +16,23 @@
 
 ## Slides
 
-* [Clean Code Intro](./assets/Slides%20(2024)/pdf/1-clean-code.pdf)
-* [Name Conventions](./assets/Slides%20(2024)/pdf/2-name-conventions.pdf)
-* [Design Principles](./assets/Slides%20(2024)/pdf/3-design-principles.pdf)
-* [TDD](./assets/Slides%20(2024)/pdf/4-tdd.pdf)
-* [BDD](./assets/Slides%20(2024)/pdf/5-bdd.pdf)
-* [TDD & BDD Skillnad](./assets/Slides%20(2024)/pdf/6-diff-tdd-bdd.pdf)
+* [Clean Code](./assets/Slides%20(2024)/pdf/0-clean-code.pdf)
+* [Name Conventions](./assets/Slides%20(2024)/pdf/1-name-conventions.pdf)
+* [Design Principles](./assets/Slides%20(2024)/pdf/2-design-principles.pdf)
+* [TDD](./assets/Slides%20(2024)/pdf/3-tdd.pdf)
+* [BDD](./assets/Slides%20(2024)/pdf/3-bdd.pdf)
+* [TDD & BDD Skillnad](./assets/Slides%20(2024)/pdf/3-diff-tdd-bdd.pdf)
 * [Unit Tests och Test Doubles](./assets/Slides%20(2022,%202023)/Unit%20Tests%20och%20Test%20Doubles.pdf)
+* [Design Patterns](./assets/Slides%20(2024)/pdf/4-design-patterns.pdf)
+* [Micro Services, Service-Oriented Arcitecture](./assets/Slides%20(2024)/pdf/5-micro-services-soa.pdf)
+* [Containers](./assets/Slides%20(2024)/pdf/6-containers.pdf)
 
 ## Övningar
 
-* [Introövningar med XUnit och Mock](./assets/Kursspecifika/Övningar/2-unit-tests.md)
-* [Övningar TDD](./assets/Kursspecifika/Övningar/3-tdd.md)
-* [Övningar Micro Services](./assets/Kursspecifika/Övningar/4-micro-services.md)
-* [Övningar Docker](./assets/Kursspecifika/Övningar/5-docker.md)
+* [Refactoring med XUnit och Mock](./assets/Kursspecifika/Övningar/2-unit-tests.md)
+* [TDD](./assets/Kursspecifika/Övningar/3-tdd.md)
+* [Micro Services](./assets/Kursspecifika/Övningar/4-micro-services.md)
+* [Docker](./assets/Kursspecifika/Övningar/5-docker.md)
 
 ## Labbar
 
