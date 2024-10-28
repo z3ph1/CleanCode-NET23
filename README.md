@@ -2,11 +2,11 @@
 
 ### [Kursmål](./assets/kursmål.md)
 
-### [V46](./assets/Kursspecifika/Veckoplan/V46.md) Kursintro och Intro TDD och Unit Test
+### [V46](./assets/Kursspecifika/Veckoplan/V46.md) Kursintro, Name Conventions, Design Principles
 
-### [V47](./assets/Kursspecifika/Veckoplan/V47.md) Refaktorering & Intro Design Patterns
+### [V47](./assets/Kursspecifika/Veckoplan/V47.md) Refaktorering & Forts. Design Principles (SOLID)
 
-### [V48](./assets/Kursspecifika/Veckoplan/V48.md) Design Patterns Forts.
+### [V48](./assets/Kursspecifika/Veckoplan/V48.md) Design Principles Forts.
 
 ### [V49](./assets/Kursspecifika/Veckoplan/V49.md) Intro Microservices
 
