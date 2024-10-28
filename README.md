@@ -16,11 +16,13 @@
 
 ## Slides
 
-* [Slides Clean Code (Från Förra året)](./assets/Slides/Clean%20Code.pdf)
-* [Slides TDD](./assets/Slides%20(2024)/pdf/tdd.pdf)
-* [Slides BDD](./assets/Slides%20(2024)/pdf/bdd.pdf)
-* [Slides TDD & BDD Skillnad](./assets/Slides%20(2024)/pdf/6-diff-tdd-bdd.pdf)
-* [Slides Unit Tests och Test Doubles](./assets/Slides%20(2022,%202023)/Unit%20Tests%20och%20Test%20Doubles.pdf)
+* [Clean Code Intro](./assets/Slides%20(2024)/pdf/1-clean-code.pdf)
+* [Name Conventions](./assets/Slides%20(2024)/pdf/2-name-conventions.pdf)
+* [Design Principles](./assets/Slides%20(2024)/pdf/3-design-principles.pdf)
+* [TDD](./assets/Slides%20(2024)/pdf/4-tdd.pdf)
+* [BDD](./assets/Slides%20(2024)/pdf/5-bdd.pdf)
+* [TDD & BDD Skillnad](./assets/Slides%20(2024)/pdf/6-diff-tdd-bdd.pdf)
+* [Unit Tests och Test Doubles](./assets/Slides%20(2022,%202023)/Unit%20Tests%20och%20Test%20Doubles.pdf)
 
 ## Övningar
 
