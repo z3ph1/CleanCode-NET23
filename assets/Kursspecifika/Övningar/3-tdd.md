@@ -11,7 +11,7 @@
     ```
 
 2. Skriv ett program som returnerar antalet 3:or i en array.
-3.  Samma program skall ha en separat metod som genererar en array av önskad längd, fylld med 3:or på varje plats.
+3. Samma program skall ha en separat metod som genererar en array av önskad längd, fylld med 3:or på varje plats.
 4. Skapa en metod som tar emot en array av Integers, sedan retunerar en array med omvänt innehåll.
     
     EX:
