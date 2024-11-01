@@ -1,0 +1,6 @@
+@WebShop_HostAddress = http://localhost:5037
+
+GET {{WebShop_HostAddress}}/product/
+Accept: application/json
+
+###
