@@ -1,82 +1,87 @@
-# Labb 2 - Micro Services
+# Labb 2 - Microservices och Designprinciper
 
-Ett sätt att bygga upp funktionalitet åt en större organisation eller företag är att tillämpa
-arkitekturmönstret mikrotjänster, vilket både löser en hel del problem men samtidigt introducerar
-nya svårigheter.
+Syftet med denna labb är att bygga en tjänst baserad på microservices-arkitektur, med fokus på best practices som SOLID-principer, design patterns och TDD. Varje gruppmedlem ansvarar för en egen microservice, och tillsammans skapar ni en `API-Gateway eller Swagger` för att möjliggöra kommunikation mellan tjänsterna.
 
-Denna labben går ut på att utveckla var sin ``microservices`` och en ``API-Gateway`` som tillsammans utgör en webbtjänst. **Varje** medlem i gruppen ansvarar för var sin ``microservice``.
+## Gruppstruktur och Arbetsprocess (Grupper om 3-4 personer)
 
-Vi vill kunna lägga till samt läsa information
-från tjänsterna vilket gör att dessa behöver supporta minst **GET** och **POST**. Men vill man kan man
-även implementera **PUT**, **PATCH** och **DELETE**.
+### Labben består av 3 delar
 
-### [Implement API Gateways with Ocelot](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/implement-api-gateways-with-ocelot)
-## Genomförs i grupp er om 3-4 personer
+### Del 1: Planering och Arkitektur
 
-## Labben består av 3 delar 
+1. **Definiera tjänsten**: Som grupp ska ni bestämma er för vilken webbtjänst ni vill bygga. Exempel på tjänster:
+   - **Pizzabeställningssystem**: En tjänst lagrar information om pizzor (namn, ingredienser, pris) medan en annan hanterar beställningar.
+   - **Användar- och meddelandesystem**: En tjänst lagrar användarprofiler medan en annan lagrar användares meddelanden med metadata.
 
-## Del 1:
+2. **API-specifikationer**: Skriv API-specifikationer för varje `microservice` och `gateway`:
+   - **Endpoints**: Varje tjänst ska stödja minst **GET** och **POST** requests, och kan vid behov även stödja **PUT**, **PATCH** och **DELETE**.
 
-Ni ska tillsammans i gruppen enas om en webbtjänst som ska byggas. 
-Ni ska också tillsammans skriva API-specifikationer för samtliga ``microservices`` och ``gateway``. Bestämma vilken typ av databas som ska användas och vem som ansvarar för vilken del. Sätt sedan upp repo och projekten med alla relevanta ``Interface`` och ``databasmodeller``.
+3. **Databas och Repository-struktur**: Bestäm vilken typ av databas (t.ex. SQL, NoSQL) som ska användas. Skapa interfaces, datamodeller och repository-strukturer (det går bra att ha hårdkodad databas).
 
-### Förslag på projekt:
+4. **CI/CD**: Sätt upp en CI/CD-pipeline för bygge och publicering av era tjänster på t.ex Docker Registry med hjälp av GitHub Actions/ Azure DevOps eller dyl.
 
-En tjänst lagrar pizzor med deras namn, ingredienser
-och pris medans en annan fristående tjänst lagrar beställningar på pizzor.
+### Del 2: Utveckling av Microservices
 
-En tjänst som lagrar information om användare så som namn, adress,
-länk till profilbild m.m. och en annan tjänst som lagrar meddelanden med en rubrik, text, datum samt id för vilken användare som postat meddelandet.
+Varje medlem i gruppen utvecklar en egen `microservice` enligt följande riktlinjer:
 
-## Del 2: Microservices och API-Gateway
+1. **Service och databasuppsättning**:
+   - Skapa microservice-projektet med databasmodeller och repository-klasser.
+   - Använd **SOLID-principerna** för att skapa löst kopplad och underhållsvänlig kod.
+   - Använd design patterns som **Factory**, **Singleton** eller **Observer** där det är relevant för att förbättra struktur och effektivitet.
 
-Implementera microservices och API Gateway. Varje medlem i gruppen ska ansvara för en microservice.
+2. **Testing och TDD**:
+   - Implementera **enhetstester** för varje tjänst med målet att uppnå hög **test coverage**. Följ **TDD** genom att skriva tester först och sedan implementera logiken.
+   - Använd **mocking frameworks** för att simulera beroenden och testa isolerat.
 
-goto Del 2
+3. **Containerisering med Docker**:
+   - Använd Docker för att containerisera tjänsten och säkerställ enkel deployment.
+   - Sätt upp Docker Compose för lokal utveckling av alla tjänster samt API-Gateway.
 
-## Del 3: Reflektioner och Analys
+4. **CI/CD**:
+   - Använd CI/CD för att bygga och publicera en Docker image på Docker Registry.
 
-När man är färdig med sin ``microservice`` ska alla skriva en kortfattad analys av arbetet. Här ska man analysera sitt eget arbete. Svara på dessa frågor men utöka gärna om det behövs.
-* Vad har du lärt dig om ``microservices``?
-* Vad hade du gjort annorlunda om du fick uppgiften igen?
+5. **API Gateway eller Swagger**:
+   - Implementera en **API Gateway** med [Ocelot](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/implement-api-gateways-with-ocelot) eller använd er av Swagger för att exponera endpoints.
+   - Konfigurera routes för varje microservice och implementera loggning av requests.
 
-## VG-Uppgifter
+### Del 3: Reflektion och Analys
 
-### Alternativ 1: Authentisering
+Efter att microservicen är färdig ska varje medlem reflektera kring följande frågor:
 
-För att använda alla endpoints utom GET frågor så vill vi veta identiteten på den som anropar våra
-tjänster. Lägg till funktionalitet för att hantera JWT i api gateway och även skicka vidare den
-informationen till bakomliggande tjänster.
+1. **Vad har du lärt dig om microservices-arkitektur och dess fördelar och utmaningar?**  
+   - Diskutera de specifika fördelarna och svårigheterna du upplevde med att bygga fristående tjänster som kommunicerar genom en gemensam gateway.
 
-#### [Make secure .NET Microservices and Web Applications](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/secure-net-microservices-web-applications/)
+2. **Hur har användandet av design patterns och SOLID-principerna påverkat din kodstruktur och systemets underhållbarhet?**  
+   - Reflektera över specifika design patterns eller SOLID-principer du har använt. Hur har de bidragit till att förbättra kodens struktur, underhållbarhet och läsbarhet?
 
-### Alternativ 2: Message Queue
+3. **Vilka utmaningar och fördelar medförde TDD, och hur har det påverkat kodens kvalitet och utvecklingsprocessen?**  
+   - Diskutera hur TDD påverkade ditt sätt att skriva och strukturera kod. Vilka lärdomar har du dragit från att arbeta testdrivet?
 
-Implementera en message queue för att hantera kommunikation mellan tjänsterna. Detta kan göras med hjälp av RabbitMQ.
+4. **Vad skulle du göra annorlunda om du fick genomföra uppgiften igen, och varför?**  
+   - Identifiera specifika delar av processen eller tekniker som du skulle förändra eller förbättra. Hur tror du att dessa förändringar skulle påverka projektet som helhet?
 
-#### [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
+5. **Vilka förbättringar skulle du föreslå för den microservices-arkitektur du implementerat?**  
+   - Fundera över förbättringsmöjligheter för arkitekturen, till exempel i form av prestandaoptimering, skalbarhet, eller felhantering.
 
-## Redovisning
+---
 
-Ni ska zippa och ladda upp projektet på ithsdistans under "Labb 2 - Micro Services" det som behövs för att köra projektet med eventuella anvisningar. Ett tips kan vara att jobba i ett github-projekt och bjuda in mig i det.
+## Inlämning och Bedömning
 
-## Bedömning
+1. Ni ska zippa och ladda upp ert projekt tillsammans med eventuella instruktioner för att bygga och köra tjänsten.
+3. Se till att koden är ren, välkommenterad och att alla tester gröna.
 
-### Krav för G
+### Bedömningskriterier för Godkänt
 
-* Ni har en(eller flera) API-spec för alla delar
-* Frågorna i steg 3 är besvarade tydligt och med självreflektion
-* Det ska gå att utföra minst **Get** och **Post** requests på alla microservices
-* Ni har utvecklat projektet på ett sätt som är löst kopplat
-* Koden ska vara felfri och byggbar i VS 22
-  
-### Krav för VG
+- Tjänsten har en komplett API-specifikation och stödjer **GET** och **POST** requests.
+- Koden följer **SOLID-principerna** och visar på användning av **design patterns**.
+- Projektet är containeriserat och byggs utan problem.
+- Reflektionsfrågorna 1 och 2 i Del 3 är besvarade med insiktsfulla reflektioner.
 
-* En eller flera extra uppgifter för VG är genomförd
-* Man har tillämpat SOLID i utvecklingen
+### Bedömningskriterier för Väl Godkänt
 
-## Utdelning
-2024-12-02
+- Implementera en **API Gateway** med [Ocelot](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/implement-api-gateways-with-ocelot) istället för Swagger.
+- Reflektionsfrågorna 3, 4 och 5 i Del 3 är besvarade med insiktsfulla reflektioner.
 
-## Deadline
-2024-12-19
+### Utdelning och Deadline
+
+**Utdelning**: 2024-12-02  
+**Deadline**: 2024-12-19

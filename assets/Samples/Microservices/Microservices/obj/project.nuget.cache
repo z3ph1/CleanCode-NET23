@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "HlEm/nSRbWHHQ+B68w5UojHnV00pZjMmSHIp9lR64YfhxcBLfJi0hauiHExe41A02NbASudOBj8x8V6qDeD8FQ==",
+  "success": true,
+  "projectFilePath": "G:\\iths\\CleanCode-NET23\\assets\\Samples\\Microservices\\Microservices\\Microservices\\Microservices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sephe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\sephe\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\sephe\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\sephe\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\sephe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\sephe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

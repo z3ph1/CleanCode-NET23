@@ -1,40 +1,42 @@
-# Veckoplanering Clean Code och Testbar kod
+# Veckoplanering Clean Code och testbar kod
 
-### [Kursmål](./assets/kursmål.md)
+### [Kursmål](./assets/CleanCode-NET23/course-goals.md)
 
-### [V46](./assets/Kursspecifika/Veckoplan/V46.md) Kursintro, Name Conventions, Design Principles
+### [V46](./assets/CleanCode-NET23/agenda/V46.md) Kursintro + TDD
 
-### [V47](./assets/Kursspecifika/Veckoplan/V47.md) Refaktorering & Forts. Design Principles (SOLID)
+### [V47](./assets/CleanCode-NET23/agenda/V47.md) Automatisering med Docker & CI/CD + Design Principles (SOLID)
 
-### [V48](./assets/Kursspecifika/Veckoplan/V48.md) Design Principles Forts.
+### [V48](./assets/CleanCode-NET23/agenda/V48.md) Handledning & Design Patterns (Repository Pattern, Unit of Work)
 
-### [V49](./assets/Kursspecifika/Veckoplan/V49.md) Intro Microservices
+### [V49](./assets/CleanCode-NET23/agenda/V49.md) Mjukvaruarkitektur (Microservices, SOA, Monolith)
 
-### [V50](./assets/Kursspecifika/Veckoplan/V50.md) Kommunikation
+### [V50](./assets/CleanCode-NET23/agenda/V50.md) Tentamen + Robusta lösningar med RabbitMQ & Polly
 
-### [V51](./assets/Kursspecifika/Veckoplan/V51.md) Handledning / Labbtid
+### [V51](./assets/CleanCode-NET23/agenda/V51.md) Inlämning och avslutning av kurs
 
 ## Slides
 
-* [Clean Code](./assets/Slides%20(2024)/pdf/0-clean-code.pdf)
-* [Name Conventions](./assets/Slides%20(2024)/pdf/1-name-conventions.pdf)
-* [Design Principles](./assets/Slides%20(2024)/pdf/2-design-principles.pdf)
-* [TDD](./assets/Slides%20(2024)/pdf/3-tdd.pdf)
-* [BDD](./assets/Slides%20(2024)/pdf/3-bdd.pdf)
-* [TDD & BDD Skillnad](./assets/Slides%20(2024)/pdf/3-diff-tdd-bdd.pdf)
-* [Unit Tests och Test Doubles](./assets/Slides%20(2022,%202023)/Unit%20Tests%20och%20Test%20Doubles.pdf)
-* [Design Patterns](./assets/Slides%20(2024)/pdf/4-design-patterns.pdf)
-* [Micro Services, Service-Oriented Arcitecture](./assets/Slides%20(2024)/pdf/5-micro-services-soa.pdf)
-* [Containers](./assets/Slides%20(2024)/pdf/6-containers.pdf)
+* [Clean Code](./assets/CleanCode-NET23/lectures/pdf/0-clean-code.pdf)
+* [Name Conventions](./assets/CleanCode-NET23/lectures/pdf/1-name-conventions.pdf)
+* [Design Principles](./assets/CleanCode-NET23/lectures/pdf/2-design-principles.pdf)
+* [TDD](./assets/CleanCode-NET23/lectures/pdf/3-tdd.pdf)
+* [BDD](./assets/SCleanCode-NET23/lectures/pdf/3-bdd.pdf)
+* [TDD & BDD Skillnad](./assets/CleanCode-NET23/lectures/pdf/3-diff-tdd-bdd.pdf)
+* [Unit Tests och Test Doubles](./assets/CleanCode-NET23/lectures/previous%20material/Unit%20Tests%20och%20Test%20Doubles.pdf)
+* X [Design Patterns](./assets/CleanCode-NET23/lectures/pdf/4-design-patterns.pdf)
+* X [Micro Services, Service-Oriented Arcitecture, Monolith](./assets/CleanCode-NET23/lectures/pdf/5-micro-services-soa.pdf)
+* X [Docker](./assets/CleanCode-NET23/lectures/pdf/6-docker.pdf)
+* X [CI/CD](./assets/CleanCode-NET23/lectures/pdf/7-ci-cd.pdf)
 
 ## Övningar
 
-* [Refactoring med XUnit och Mock](./assets/Kursspecifika/Övningar/2-unit-tests.md)
-* [TDD](./assets/Kursspecifika/Övningar/3-tdd.md)
-* [Micro Services](./assets/Kursspecifika/Övningar/4-micro-services.md)
-* [Docker](./assets/Kursspecifika/Övningar/5-docker.md)
+* [Excercises](./assets/CleanCode-NET23/exercises/)
+
+## Exempel
+
+* [Samples](./assets/Samples/)
 
 ## Labbar
 
-### [Labb 1](./assets/Kursspecifika/Labbar/Labb1.md)
-### [Labb 2](./assets/Kursspecifika/Labbar/Labb2.md)
+### [Labb 1](./assets/CleanCode-NET23/labs/labb-1.md)
+### [Labb 2](./assets/CleanCode-NET23/labs/labb-2.md)
