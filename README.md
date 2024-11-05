@@ -38,5 +38,5 @@
 
 ## Labbar
 
-### [Labb 1](./assets/CleanCode-NET23/labs/labb-1.md)
-### [Labb 2](./assets/CleanCode-NET23/labs/labb-2.md)
+* [Labb 1](./assets/CleanCode-NET23/labs/labb-1.md)
+* [Labb 2](./assets/CleanCode-NET23/labs/labb-2.md)
