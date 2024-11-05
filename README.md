@@ -4,9 +4,9 @@
 
 ### [V46](./assets/CleanCode-NET23/agenda/V46.md) Kursintro + TDD
 
-### [V47](./assets/CleanCode-NET23/agenda/V47.md) Automatisering med Docker & CI/CD + Design Principles (SOLID)
+### [V47](./assets/CleanCode-NET23/agenda/V47.md) Design Principles (SOLID) + Design Patterns (Repository Pattern, Unit of Work) 
 
-### [V48](./assets/CleanCode-NET23/agenda/V48.md) Handledning & Design Patterns (Repository Pattern, Unit of Work)
+### [V48](./assets/CleanCode-NET23/agenda/V48.md) Automatisering med Docker & CI/CD + Handledning
 
 ### [V49](./assets/CleanCode-NET23/agenda/V49.md) Mjukvaruarkitektur (Microservices, SOA, Monolith)
 
