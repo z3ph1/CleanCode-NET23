@@ -1,4 +1,4 @@
-# Labb 2 - Microservices och Designprinciper
+# Labb 2 - Microservices (i grupp)
 
 Syftet med denna labb är att bygga en tjänst baserad på microservices-arkitektur, med fokus på best practices som SOLID-principer, design patterns och TDD. Varje gruppmedlem ansvarar för en egen microservice, och tillsammans skapar ni en `API-Gateway eller Swagger` för att möjliggöra kommunikation mellan tjänsterna.
 

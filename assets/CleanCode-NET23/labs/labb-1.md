@@ -1,4 +1,4 @@
-# Labb 1 - Refaktorering och TDD
+# Labb 1 - Solid och TDD
 
 Vårt företag har fått i uppdrag av en mindre kund att hjälpa dem med att rädda deras webbshop-projekt.
 
