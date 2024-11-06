@@ -30,7 +30,7 @@
 
 ## Övningar
 
-* [Excercises](./assets/CleanCode-NET23/exercises/)
+* [Exercises](./assets/CleanCode-NET23/exercises/)
 
 ## Exempel
 
