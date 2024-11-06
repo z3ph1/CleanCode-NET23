@@ -37,7 +37,7 @@ Utöver detta ska du implementera en ny huvudfunktionalitet med hjälp av ett **
 
 ## Redovisning
 
-Uppgiften är individuell och ska laddas upp som en zip-fil på ithsdistans under "Labb 1 - Refaktorering och TDD". Inkludera även en **git-länk** i en README-fil. **OBS!** Koden måste laddas upp för att möjliggöra uppföljning.
+Uppgiften är individuell och ska laddas upp som en zip-fil på ithsdistans under "Labb 1 - Solid och TDD". Inkludera även en **git-länk** i en README-fil. **OBS!** Koden måste laddas upp för att möjliggöra uppföljning.
 
 ## Inlämning före deadline
 
