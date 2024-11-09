@@ -79,6 +79,7 @@ Efter att microservicen är färdig ska varje medlem reflektera kring följande 
 ### Bedömningskriterier för Väl Godkänt
 
 - Implementera en **API Gateway** med [Ocelot](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/implement-api-gateways-with-ocelot) istället för Swagger.
+- Applikationen ska containeriseras, vilket innebär att alla dess komponenter ska definieras i en docker-compose-fil för uppstart och köras i Docker-containrar under körningstid.
 - Reflektionsfrågorna 3, 4 och 5 i Del 3 är besvarade med insiktsfulla reflektioner.
 
 ### Utdelning och Deadline
