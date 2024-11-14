@@ -2,3 +2,4 @@ https://everyone-can-code.github.io/solid/ocp/
 https://learn.microsoft.com/en-us/shows/visual-studio-toolbox/solid-design-patterns
 https://community.dynamics.com/blogs/post/?postid=35d7af94-8881-47ab-bf79-9b12731d4f23
 https://www.c-sharpcorner.com/article/solid-with-net-core/
+https://learn.microsoft.com/en-us/shows/visual-studio-live-2017/w19
