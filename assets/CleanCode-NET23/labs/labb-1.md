@@ -8,7 +8,7 @@ Kunden, som saknar expertis inom IT och mjukvara, har nu bett oss att färdigst�
 
 ## Uppgift
 
-Med hjälp av **TDD** ska du förbättra [API-et](https://github.com/z3ph1/WebShopSolution) och refaktorera det så att det följer **SOLID**-principerna för att möjliggöra vidareutveckling. Du ska även implementera **Repository Pattern** tillsammans med **Unit of Work** för en mer konsekvent och robust datahantering.
+Med hjälp av **TDD** ska du förbättra [API-et](https://github.com/z3ph1/Labb1Net23Gbg/tree/master/) och refaktorera det så att det följer **SOLID**-principerna för att möjliggöra vidareutveckling. Du ska även implementera **Repository Pattern** tillsammans med **Unit of Work** för en mer konsekvent och robust datahantering.
 
 Utöver detta ska du implementera en ny huvudfunktionalitet med hjälp av ett **design pattern** som du väljer själv. Denna nya funktionalitet ska också utvecklas med TDD.
 
