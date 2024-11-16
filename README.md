@@ -4,7 +4,7 @@
 
 ### [V46](./assets/CleanCode-NET23/agenda/V46.md) Kursintro + TDD + Design Principles (SOLID) 
 
-### [V47](./assets/CleanCode-NET23/agenda/V47.md) Design Patterns (Repository Pattern, Unit of Work) (TBD)
+### [V47](./assets/CleanCode-NET23/agenda/V47.md) Design Patterns
 
 ### [V48](./assets/CleanCode-NET23/agenda/V48.md) Automatisering med Docker & CI/CD + Handledning
 
@@ -23,10 +23,10 @@
 * [BDD](./assets/SCleanCode-NET23/lectures/pdf/3-bdd.pdf)
 * [TDD & BDD Skillnad](./assets/CleanCode-NET23/lectures/pdf/3-diff-tdd-bdd.pdf)
 * [Unit Tests och Test Doubles](./assets/CleanCode-NET23/lectures/previous%20material/Unit%20Tests%20och%20Test%20Doubles.pdf)
-* X [Design Patterns](./assets/CleanCode-NET23/lectures/pdf/4-design-patterns.pdf)
-* X [Micro Services, Service-Oriented Arcitecture, Monolith](./assets/CleanCode-NET23/lectures/pdf/5-micro-services-soa.pdf)
+* [Design Patterns](./assets/CleanCode-NET23/lectures/pdf/4-design-patterns-repository-unit_of_work.pdf)
 * X [Docker](./assets/CleanCode-NET23/lectures/pdf/6-docker.pdf)
 * X [CI/CD](./assets/CleanCode-NET23/lectures/pdf/7-ci-cd.pdf)
+* X [Micro Services, Service-Oriented Arcitecture, Monolith](./assets/CleanCode-NET23/lectures/pdf/5-micro-services-soa.pdf)
 
 ## Övningar
 
