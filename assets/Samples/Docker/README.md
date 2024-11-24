@@ -1,0 +1,7 @@
+- projektmapp/
+  - docker-compose.yml
+  - WebbApplikation/
+    - Dockerfile
+    - WebbApplikation.csproj
+    - Program.cs
+    - Övriga källkodsfiler
