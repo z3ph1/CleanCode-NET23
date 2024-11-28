@@ -15,7 +15,7 @@ Syftet med denna labb är att bygga en tjänst baserad på microservices-arkitek
 2. **API-specifikationer**: Skriv API-specifikationer för varje `microservice` och `gateway`:
    - **Endpoints**: Varje tjänst ska stödja minst **GET** och **POST** requests, och kan vid behov även stödja **PUT**, **PATCH** och **DELETE**.
 
-3. **Databas och Repository-struktur**: Bestäm vilken typ av databas (t.ex. SQL, NoSQL) som ska användas. Skapa interfaces, datamodeller och repository-strukturer (det går bra att ha hårdkodad databas).
+3. **Databas och Repository-struktur**: Bestäm vilken typ av databas (t.ex. SQL, NoSQL) som ska användas. Skapa interfaces, datamodeller och repository-strukturer.
 
 4. **CI/CD**: Sätt upp en CI/CD-pipeline för bygge och publicering av era tjänster på t.ex Docker Registry med hjälp av GitHub Actions/ Azure DevOps eller dyl.
 
@@ -32,16 +32,17 @@ Varje medlem i gruppen utvecklar en egen `microservice` enligt följande riktlin
    - Implementera **enhetstester** för varje tjänst med målet att uppnå hög **test coverage**. Följ **TDD** genom att skriva tester först och sedan implementera logiken.
    - Använd **mocking frameworks** för att simulera beroenden och testa isolerat.
 
-3. **Containerisering med Docker**:
-   - Använd Docker för att containerisera tjänsten och säkerställ enkel deployment.
-   - Sätt upp Docker Compose för lokal utveckling av alla tjänster samt API-Gateway.
-
-4. **CI/CD**:
+3. **CI/CD**:
    - Använd CI/CD för att bygga och publicera en Docker image på Docker Registry.
 
-5. **API Gateway eller Swagger**:
+4. **API Gateway eller Swagger**:
    - Implementera en **API Gateway** med [Ocelot](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/implement-api-gateways-with-ocelot) eller använd er av Swagger för att exponera endpoints.
    - Konfigurera routes för varje microservice och implementera loggning av requests.
+
+5. **Containerisering med Docker**:
+   - Använd Docker för att containerisera tjänsten och säkerställ enkel deployment.
+   - Sätt upp Docker Compose för lokal utveckling av alla tjänster samt API-Gateway.
+   - Consumera images i Docker-compose från Docker Registry om möjligt (efter att er CI/CD pipeline publicerat).
 
 ### Del 3: Reflektion och Analys
 
@@ -73,7 +74,7 @@ Efter att microservicen är färdig ska varje medlem reflektera kring följande 
 
 - Tjänsten har en komplett API-specifikation och stödjer **GET** och **POST** requests.
 - Koden följer **SOLID-principerna** och visar på användning av **design patterns**.
-- Projektet är containeriserat och byggs utan problem.
+- Microservicen är containeriserad och byggs utan problem.
 - Reflektionsfrågorna 1 och 2 i Del 3 är besvarade med insiktsfulla reflektioner.
 
 ### Bedömningskriterier för Väl Godkänt
