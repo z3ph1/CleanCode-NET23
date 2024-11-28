@@ -6,11 +6,11 @@
 
 ### [V47](./assets/CleanCode-NET23/agenda/V47.md) Design Patterns
 
-### [V48](./assets/CleanCode-NET23/agenda/V48.md) Automatisering med Docker & CI/CD + Handledning
+### [V48](./assets/CleanCode-NET23/agenda/V48.md) Automatisering med Docker + Handledning
 
 ### [V49](./assets/CleanCode-NET23/agenda/V49.md) Mjukvaruarkitektur (Microservices, SOA, Monolith)
 
-### [V50](./assets/CleanCode-NET23/agenda/V50.md) Tentamen + Robusta lösningar med RabbitMQ & Polly
+### [V50](./assets/CleanCode-NET23/agenda/V50.md) Tentamen + CI/CD
 
 ### [V51](./assets/CleanCode-NET23/agenda/V51.md) Inlämning och avslutning av kurs
 
@@ -25,8 +25,8 @@
 * [Unit Tests och Test Doubles](./assets/CleanCode-NET23/lectures/previous%20material/Unit%20Tests%20och%20Test%20Doubles.pdf)
 * [Design Patterns](./assets/CleanCode-NET23/lectures/pdf/4-design-patterns-repository-unit_of_work.pdf)
 * [Docker](./assets/CleanCode-NET23/lectures/pdf/5-docker.pdf)
-* X [CI/CD](./assets/CleanCode-NET23/lectures/pdf/6-ci-cd.pdf)
 * X [Micro Services, Service-Oriented Arcitecture, Monolith](./assets/CleanCode-NET23/lectures/pdf/5-micro-services-soa.pdf)
+* X [CI/CD](./assets/CleanCode-NET23/lectures/pdf/6-ci-cd.pdf)
 
 ## Övningar
 

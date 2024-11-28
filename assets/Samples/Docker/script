@@ -1,1 +1,4 @@
 docker-compose up --build
+
+
+dotnet ef migrations add InitialCreate --project G:\iths\clean-code-labb1-continue\WebShopSolution\Repository -startup-project G:\iths\clean-code-labb1-continue\WebShopSolution\WebShop 
