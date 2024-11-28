@@ -6,7 +6,7 @@
 
 ### [V47](./assets/CleanCode-NET23/agenda/V47.md) Design Patterns
 
-### [V48](./assets/CleanCode-NET23/agenda/V48.md) Automatisering med Docker + Handledning
+### [V48](./assets/CleanCode-NET23/agenda/V48.md) Automatisering med Docker
 
 ### [V49](./assets/CleanCode-NET23/agenda/V49.md) Mjukvaruarkitektur (Microservices, SOA, Monolith)
 
