@@ -1,35 +1,28 @@
 version: '3.8'
 
 services:
-  db:
-    image: postgres:15
-    restart: always
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    ports:
+      - "1433:1433"
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: mydb
+      SA_PASSWORD: "SuperSafePass.123"
+      ACCEPT_EULA: "Y"
     volumes:
-      - db-data:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
+      - sqlserver_data:/var/opt/mssqlMyDatabase
 
-  webb:
+  webshop:
     build:
-      context: ./WebbApplikation
-      dockerfile: Dockerfile
-    depends_on:
-      - db
+      context: .
+      dockerfile: WebShop/Dockerfile
+    container_name: webshop
     ports:
-      - "8080:80"
+      - "8080:8080"
+    depends_on:
+      - sqlserver
     environment:
-      ASPNETCORE_ENVIRONMENT: Development
-      ConnectionStrings__DefaultConnection: "Host=db;Database=mydb;Username=postgres;Password=postgres"
-    networks:
-      - app-network
+      ConnectionStrings__DefaultConnection: "Server=sqlserver;Database=MyDatabase;User Id=sa;Password=SuperSafePass.123;TrustServerCertificate=True;"
 
 volumes:
-  db-data:
-
-networks:
-  app-network:
-    driver: bridge
+  sqlserver_data:
