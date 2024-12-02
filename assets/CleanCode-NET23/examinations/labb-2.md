@@ -1,6 +1,6 @@
 # Labb 2 - Microservices (i grupp)
 
-Syftet med denna labb är att bygga en tjänst baserad på microservices-arkitektur, med fokus på best practices som SOLID-principer, design patterns och TDD. Varje gruppmedlem ansvarar för en egen microservice, och tillsammans skapar ni en `API-Gateway eller Swagger` för att möjliggöra kommunikation mellan tjänsterna.
+Syftet med denna labb är att bygga en tjänst baserad på microservices-arkitektur, med fokus på best practices som SOLID-principer, design patterns. Varje gruppmedlem ansvarar för en egen microservice, och tillsammans skapar ni en `API-Gateway eller Swagger` för att möjliggöra kommunikation mellan tjänsterna.
 
 ## Gruppstruktur och Arbetsprocess (Grupper om 3-4 personer)
 
@@ -37,7 +37,7 @@ Varje medlem i gruppen utvecklar en egen `microservice` enligt följande riktlin
 
 4. **Containerisering med Docker**:
    - Använd Docker för att containerisera tjänsten och säkerställ enkel deployment.
-   - Sätt upp Docker Compose för lokal utveckling av alla tjänster samt API-Gateway.
+   - Sätt upp Docker Compose för lokal utveckling av alla tjänster (samt API-Gateway om ni satsar på VG).
    - Consumera images i Docker-compose från Docker Registry om möjligt (efter att er CI/CD pipeline publicerat).
 
 ### Del 3: Reflektion och Analys
@@ -50,13 +50,10 @@ Efter att microservicen är färdig ska varje medlem reflektera kring följande 
 2. **Hur har användandet av design patterns och SOLID-principerna påverkat din kodstruktur och systemets underhållbarhet?**  
    - Reflektera över specifika design patterns eller SOLID-principer du har använt. Hur har de bidragit till att förbättra kodens struktur, underhållbarhet och läsbarhet?
 
-3. **Vilka utmaningar och fördelar medförde TDD, och hur har det påverkat kodens kvalitet och utvecklingsprocessen?**  
-   - Diskutera hur TDD påverkade ditt sätt att skriva och strukturera kod. Vilka lärdomar har du dragit från att arbeta testdrivet?
-
-4. **Vad skulle du göra annorlunda om du fick genomföra uppgiften igen, och varför?**  
+3. **Vad skulle du göra annorlunda om du fick genomföra uppgiften igen, och varför?**  
    - Identifiera specifika delar av processen eller tekniker som du skulle förändra eller förbättra. Hur tror du att dessa förändringar skulle påverka projektet som helhet?
 
-5. **Vilka förbättringar skulle du föreslå för den microservices-arkitektur du implementerat?**  
+4. **Vilka förbättringar skulle du föreslå för den microservices-arkitektur du implementerat?**  
    - Fundera över förbättringsmöjligheter för arkitekturen, till exempel i form av prestandaoptimering, skalbarhet, eller felhantering.
 
 ---
@@ -77,7 +74,7 @@ Efter att microservicen är färdig ska varje medlem reflektera kring följande 
 
 - Implementera en **API Gateway** med [Ocelot](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/implement-api-gateways-with-ocelot) istället för Swagger.
 - Applikationen ska containeriseras, vilket innebär att alla dess komponenter ska definieras i en docker-compose-fil för uppstart och köras i Docker-containrar under körningstid.
-- Reflektionsfrågorna 3, 4 och 5 i Del 3 är besvarade med insiktsfulla reflektioner.
+- Reflektionsfrågorna 3 och 4 i Del 3 är besvarade med insiktsfulla reflektioner.
 
 ### Utdelning och Deadline
 
