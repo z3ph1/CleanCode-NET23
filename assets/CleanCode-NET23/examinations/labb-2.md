@@ -28,18 +28,14 @@ Varje medlem i gruppen utvecklar en egen `microservice` enligt följande riktlin
    - Använd **SOLID-principerna** för att skapa löst kopplad och underhållsvänlig kod.
    - Använd design patterns som **Factory**, **Singleton** eller **Observer** där det är relevant för att förbättra struktur och effektivitet.
 
-2. **Testing och TDD**:
-   - Implementera **enhetstester** för varje tjänst med målet att uppnå hög **test coverage**.
-   - Använd **mocking frameworks** för att simulera beroenden och testa isolerat.
-
-3. **CI/CD**:
+2. **CI/CD**:
    - Använd CI/CD för att bygga och publicera en Docker image på Docker Registry.
 
-4. **API Gateway eller Swagger**:
+3. **API Gateway eller Swagger**:
    - Implementera en **API Gateway** med [Ocelot](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/implement-api-gateways-with-ocelot) eller använd er av Swagger för att exponera endpoints.
    - Konfigurera routes för varje microservice och implementera loggning av requests.
 
-5. **Containerisering med Docker**:
+4. **Containerisering med Docker**:
    - Använd Docker för att containerisera tjänsten och säkerställ enkel deployment.
    - Sätt upp Docker Compose för lokal utveckling av alla tjänster samt API-Gateway.
    - Consumera images i Docker-compose från Docker Registry om möjligt (efter att er CI/CD pipeline publicerat).
@@ -68,7 +64,7 @@ Efter att microservicen är färdig ska varje medlem reflektera kring följande 
 ## Inlämning och Bedömning
 
 1. Ni ska zippa och ladda upp ert projekt tillsammans med eventuella instruktioner för att bygga och köra tjänsten.
-3. Se till att koden är ren, välkommenterad och att alla tester gröna.
+3. Se till att koden är felfri, inga errors i bygget.
 
 ### Bedömningskriterier för Godkänt
 
