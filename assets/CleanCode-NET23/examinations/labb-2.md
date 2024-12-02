@@ -29,7 +29,7 @@ Varje medlem i gruppen utvecklar en egen `microservice` enligt följande riktlin
    - Använd design patterns som **Factory**, **Singleton** eller **Observer** där det är relevant för att förbättra struktur och effektivitet.
 
 2. **Testing och TDD**:
-   - Implementera **enhetstester** för varje tjänst med målet att uppnå hög **test coverage**. Följ **TDD** genom att skriva tester först och sedan implementera logiken.
+   - Implementera **enhetstester** för varje tjänst med målet att uppnå hög **test coverage**.
    - Använd **mocking frameworks** för att simulera beroenden och testa isolerat.
 
 3. **CI/CD**:
