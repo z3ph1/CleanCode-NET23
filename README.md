@@ -25,7 +25,7 @@
 * [Unit Tests och Test Doubles](./assets/CleanCode-NET23/lectures/previous%20material/Unit%20Tests%20och%20Test%20Doubles.pdf)
 * [Design Patterns](./assets/CleanCode-NET23/lectures/pdf/4-design-patterns-repository-unit_of_work.pdf)
 * [Docker](./assets/CleanCode-NET23/lectures/pdf/5-docker.pdf)
-* X [Micro Services, Service-Oriented Arcitecture, Monolith](./assets/CleanCode-NET23/lectures/pdf/5-micro-services-soa.pdf)
+* [Micro Services, Service-Oriented Arcitecture, Monolith](./assets/CleanCode-NET23/lectures/pdf/6-monolith-soa-microservices.pdf)
 * X [CI/CD](./assets/CleanCode-NET23/lectures/pdf/6-ci-cd.pdf)
 
 ## Övningar
