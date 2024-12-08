@@ -26,7 +26,7 @@
 * [Design Patterns](./assets/CleanCode-NET23/lectures/pdf/4-design-patterns-repository-unit_of_work.pdf)
 * [Docker](./assets/CleanCode-NET23/lectures/pdf/5-docker.pdf)
 * [Micro Services, Service-Oriented Arcitecture, Monolith](./assets/CleanCode-NET23/lectures/pdf/6-monolith-soa-microservices.pdf)
-* X [CI/CD](./assets/CleanCode-NET23/lectures/pdf/6-ci-cd.pdf)
+* [CI/CD](./assets/CleanCode-NET23/lectures/pdf/7-ci-cd-devops-github-actions.pdf)
 
 ## Övningar
 
