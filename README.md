@@ -20,7 +20,7 @@
 * [Name Conventions](./assets/CleanCode-NET23/lectures/pdf/1-name-conventions.pdf)
 * [Design Principles](./assets/CleanCode-NET23/lectures/pdf/2-design-principles.pdf)
 * [TDD](./assets/CleanCode-NET23/lectures/pdf/3-tdd.pdf)
-* [BDD](./assets/SCleanCode-NET23/lectures/pdf/3-bdd.pdf)
+* [BDD](./assets/CleanCode-NET23/lectures/pdf/3-bdd.pdf)
 * [TDD & BDD Skillnad](./assets/CleanCode-NET23/lectures/pdf/3-diff-tdd-bdd.pdf)
 * [Unit Tests och Test Doubles](./assets/CleanCode-NET23/lectures/previous%20material/Unit%20Tests%20och%20Test%20Doubles.pdf)
 * [Design Patterns](./assets/CleanCode-NET23/lectures/pdf/4-design-patterns-repository-unit_of_work.pdf)
